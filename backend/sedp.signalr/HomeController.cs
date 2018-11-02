@@ -9,7 +9,7 @@ namespace sedp.signalr
         [HttpGet]
         public IActionResult Index()
         {
-            return Json(new { Name = "FooBar"});
+            return Json(new { Name = "SignalR!!"});
         }
     }
 }
