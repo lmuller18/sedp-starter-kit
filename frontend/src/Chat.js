@@ -60,7 +60,7 @@ class Chat extends Component {
     }
     render() {
         return (<div className={this.props.classes.root}>
-            <Typography variant="display1">Canvas</Typography>
+            <Typography variant="display1">Chat</Typography>
             <Paper className={this.props.classes.paper}>
                 <div className={this.props.classes.content}>
                     {this.state.messages && this.state.messages.map((message, index) => (<Typography key={index} variant='body1'>{message}</Typography>))}
